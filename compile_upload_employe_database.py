@@ -63,17 +63,7 @@ def send_mail(sender,recipient,app_password):
     print("Status : Email Sent") 
 
 credentials ={
-  "type": "service_account",
-  "project_id": "ninjavanbiid1",
-  "private_key_id": "6ef5f0ae9cad1bb0c6617d53810e6675dab1ea8a",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQC5IEqiGiSW4tmI\nqeDgoThRsbhYkEarelEMdPUjve402tGJsPF5zx2560Qx1YfeBY2Pynsb/jFmNMmF\nzg5pMFnCxStInz+KZi68TWYdF+Lq0JZGkYdRHBkAGZAttbYlcGVQKJMCdgJN+FRt\nm/6JGUkjr+SjOZmm+xtyd7iaFS6XVXrep5i8E3jsZziTvhLFszWA0KWX4QrAkC7L\nUvaP19DN53iRChbn6Jv0A2n3j3oBrnXiPrQWQ3z2JkyiRCpb6eV7soXxgdjlYFFo\nIEuP/6Vjq83b2ie47Vf46dvLEDaEsA6ueFvavFxOVtLAdTyEZnE28hajfQV7Jp8B\nAxr+DZwrAgMBAAECggEAGgD3hXucm3aJTea8Msa9TXm5m58bKNJz+LGjuX3gAZv3\nBkX3ir+qvPHXe2neEt6+0Bgwthw86M64u/XXal54oqDlf+b2mu8tg2pv0d2yvynG\nN2q7vOCbK7trgtrdF2HeqVAkY5pwn8PRFYXC+ZO2sATwsx4lKiJoQZT1i5c2xdo7\neCXrpBVQa0DpbIZ8yl6aoTCx9v6PGXKL6/ZJU/tYFNsZ/68l7Mto94TBEIUlnyRg\nQ+H6n2J7udKrL5B43zxRdxw34wM2uD9rDOYNPZRuwuk1z+rABAbSREviD634zylV\nBWqOYCL3DuhOrED3PzH6ku2gXHEoZqZIucbtupIUGQKBgQDyLUyAt8vBvniWrUXo\n7RN0U+KbDvGlB2d/FBUfTm8DpC/WCPza5N5YaIxhuAXfHyQDrN4RAqIJHT1w6Q0/\nnbdLkMTUR84PKITN02TAKh8xIGDKsocBN/IYLSzyunHem+xEFx+gLoXaiqGhjFAz\ntPHwceSybIBkKXvmTDvg0xeTtwKBgQDDsV0QmdQlZfn/KMvU8wzUo2MQ8ujn7xTB\ncZomNPqHImrBpXgwdEczLTNKu1ZNhYnXb2hyUUVa/wGUiQy1mVFURass0CZnzN8h\nUFj3mCVa8njBqvRcXeG9f5MFKgQ2ag3SsMtW8ExeW6LxUfdGVn02sHMXDWOEtX3D\nNPy1VD6DLQKBgBz2qfWjBa1wOD/dDUVkRTVeavWcfe38yrX6EuShnslSs53niUYs\npSLxrghp19ntgYMnA5AJPpPUeWqtlLYNCMTy1XeF9vD9KZTsOVp6LyzS8ICNhXPx\n2vRlQsDs5312LHWgRloD9mJCvj3x6A2nEGBvXqiwLVLNW1IZv/eNh35VAoGBAKZv\npAJpgsgn+j7suKet67yyFaClqDcS3SlFcGCMcIMcX4XBMP6s9p1tFRG7UURvjfO/\n2ipYOs+Q0Qw+n6OX+VbeRh7ADdn8oc2Yo4I5UZQPY2r79gbVBhiAd09OE/UfsBAA\ns4CGsb0S3Pu3xcJ57tbjrY7uoTSOk57B4yhptR0lAn8wteYhbxoHP0KTeMBYCod3\nXHOT1YaIzZeTRXIrU5QPWZLNb1dOcyaHLrrNz1GHseV/pyzE7NbCdBHxYySaLnPD\n6aO/43SdK61Wz7PKxwxTP68bzVRJs0J1g7ZwZ9FXEHfUU3PCpD5qkTYcZuc01t0Z\n2fA42YzfXiiR/WrMsJc+\n-----END PRIVATE KEY-----\n",
-  "client_email": "pydrive@ninjavanbiid1.iam.gserviceaccount.com",
-  "client_id": "111507099161568151397",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pydrive%40ninjavanbiid1.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
+
   }
 gc= gs.service_account_from_dict(credentials)
 
