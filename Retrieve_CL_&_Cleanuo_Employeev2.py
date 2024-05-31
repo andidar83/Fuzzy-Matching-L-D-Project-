@@ -24,17 +24,7 @@ import json
 
 ##############Functions#######################################################################
 credentials = {
-  "type": "service_account",
-  "project_id": "ninjavanbiid",
-  "private_key_id": "8fac04201c98dfa10ec7a73f1843e2280adaa618",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5V/nhspBOJors\nsSRmcx0CQqd87MCvcZ5cn/iPe9zjZV9Z5A71JBUG6ORtvk9Ypek/JhGmvaDZKxe4\n7dquda+0VxIEkdFW+HWk/9sAVVbGuGs3m8cg7Mgviq0EqZ4+Rve99IsGDjX1hcdo\n9f/wAzqh8H5tw/5gxjuFqcrttuaE+tKfgicEGxggNf+hO6LFU6hsFMV8yVp7AsoR\nL3I5ZLk/RMspjWAf5HGzyLbPBJpW+5tES1JazjYvu1/BA+gj9q6C6bsnagnOE6+o\n1mkTq2PNgWLKYl9WILr0woC8HdtyFJIQ4lF8M/i82u2N2cCYF/d8UfFDvsKHBAk2\ni1Cfw/T9AgMBAAECggEAQ8fPo2Fo8puXzK2PkUPhxPTZSY9PfBnB/z+lZ9u1URe+\ngiIr8ixq4CcFerjRTasHHMfwRpksnJ7swv2BLrHtOrdo6HDnLLYaV+gVkA6leHDz\nDNgUP484OmKtmXnqW/4aFca7nNBPnWV6IoFsQrr7k0NfCQdXHM8B74TDqKFttg1f\nnBKTmCNsDTRS1FsMteYolxRb1o2Yb6YdycmpCATmaWkFxH7i8fS7x2f1oGckBqB0\nS3mkOI+gkxxOLU6qH/701k9jPhrcgpI/y12PsaPG6l2fJ2KCUXiNCQEa95/4J6k9\nWGTbbPIlTdfX6ZJNbQXmYIbFXXDt0KsaBC/2J6aAJQKBgQD3sX0EY8tDhQduTuIH\n9FJlveziBn8ThwgcjFknrLKfFBKIEgLmYW3ZcofTShcayiEzAA/hn8IJlShph9+w\nUGg4Vrte22GnRhrwa+y6/2VXmKwIxn8aZrQbYHnz7HcT+qU2KQCQ41tV+qgDDZPc\n39GFvv3lssZU253Hxt8fzD+qdwKBgQC/jzMfPkc4I5bnG2gLlHxbm6gAZhezeRWX\nFBG5ZLdU3AWBW9ScMWtfGPSc4+inrrqx9/fPLEr6qRzYJg47MdRJkzjCHflA5tBg\n1xrja3MmK9V+4GA5EYgBQ9R3JDzgOtic7VZ9o0Pft5n2LpnghcqnYHPNUCcf4awa\ntpYb1LIFKwKBgH+0Ha2uufS02JDx0K2jNPxJwKEEEm6B9xeo8Kp46psD4U4QYzhe\nUSGEYCz6jRD918IQrR95m7QPGAfYyuZ/fkxVw0LzvtRcW7VLH4GF/bz89O2NUajN\n/NwEkLvHVdmSJ63V0/nfjo60rfzs+igtqTvYrdTIqGLF3AJNMWqWhtifAoGAfzMZ\noT97jz2isKe0OSxKP5Jmxo0EY/qdaYq8Ej1ct466YSGXVnhCcg1iMOPt05rlAdRE\ny18AEt5E9wqeHJSEAK8v20aIAp7B8+wiQK1S8x/cTrmza3HGvABMjyiS+9pXiCzZ\nZ+gH5ABIzf43061D2kzj2IvGzxbNb5eaqbRc2a0CgYEAuRt6xVjiboMTB49hU3KD\nh3BfJ9gFeuvK8rH2fc44HB/TOlYXvlo/7V5EVn8Bxa2TStVt9b7fzjRTcS69A9yS\n91/qkH2FBYIutT27t15cE7+I/St68MkjlnCp4k+9BWnm1IKkXMpjvJEANEZJsAQ6\n5mJ/qaajzCsmemzVFegKAlU=\n-----END PRIVATE KEY-----\n",
-  "client_email": "automation@ninjavanbiid.iam.gserviceaccount.com",
-  "client_id": "100326913583619321970",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/automation%40ninjavanbiid.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
+
 }
 
 gc= gs.service_account_from_dict(credentials)
